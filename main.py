@@ -50,8 +50,8 @@ def _build_yml_core(
         "Hp": utils.utils.value_fallback(stats.get("health"), 2_500_000),
         "Sp": utils.utils.value_fallback(stats.get("sp"), 10_000),
 
-        "BaseExp": utils.utils.value_fallback(stats.get("baseExperience"), 1_000_000),
-        "JobExp": utils.utils.value_fallback(stats.get("jobExperience"), 1_000_000),
+        "BaseExp": utils.utils.value_fallback(stats.get("baseExperience"), 3000000),
+        "JobExp": utils.utils.value_fallback(stats.get("jobExperience"), 3000000),
 
         "Attack": utils.utils.value_fallback(stats.get("atk1"), 500),
         "Attack2": utils.utils.value_fallback(stats.get("atk2"), 300),
