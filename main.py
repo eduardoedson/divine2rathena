@@ -42,7 +42,7 @@ def _build_yml_core(
     """
     return {
         "Id": monster_id,
-        "AegisName": json_data.get("sprite", ""),
+        "AegisName": json_data.get("sprite") or f"MOB_{monster_id}",
         "Name": utils.utils.normalize_dbname(json_data.get("dbname", "")),
 
         # Stats with fallback logic
