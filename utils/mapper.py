@@ -127,7 +127,7 @@ def get_race_name(race_id: int) -> str:
 
         0 = Formless
         1 = Undead
-        2 = Beast
+        2 = Brute
         3 = Plant
         4 = Insect
         5 = Fish
@@ -141,7 +141,7 @@ def get_race_name(race_id: int) -> str:
     races = [
         "Formless",
         "Undead",
-        "Beast",
+        "Brute",
         "Plant",
         "Insect",
         "Fish",
